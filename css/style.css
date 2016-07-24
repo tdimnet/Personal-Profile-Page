@@ -38,7 +38,6 @@ a:hover {
   background: black;
   min-height: 30px;
   padding: 10px;
-  position: fixed;
   text-align: center;
 }
 
@@ -65,7 +64,7 @@ a:hover {
   transition: all .5s;
 }
 
-.nav a:hover {
+.nav a:hover, .selected {
   color: white
 }
 
@@ -79,7 +78,6 @@ header {
   text-align: center;
   background: url('../img/paris-eiffel-tower.jpg') no-repeat bottom center ;
   background-size: cover;
-  overflow: hidden;
   padding-top: 60px;
 }
 
@@ -110,9 +108,15 @@ header .profile-image:hover {
   margin: 10px auto;
 }
 
+h1.name:hover {
+    color: #fff;
+    background-color: #222;
+    transition: 2s;
+}
+
 .location {
   background-color: #222;
-  color: yellow;
+  color: #fff;
 }
 
 
@@ -127,13 +131,14 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border-bottom: 6px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #333;
+  transition: 1s;
 }
 
 ul.skills {
