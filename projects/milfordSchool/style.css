@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: url('img/milford_school_background_image.jpg') no-repeat center center fixed; 
+  background: url('img/milford_school_background_image.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -25,6 +25,10 @@ body {
   position: relative;
   display: inline;
   cursor: pointer;
+}
+
+.dropdown img {
+  width: 30px;
 }
 
 .dropdown-menu {
